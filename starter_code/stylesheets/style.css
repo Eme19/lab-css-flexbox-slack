@@ -1,10 +1,381 @@
-/*
-background purple: #540B51
-background ivory: #F3EAE2
-button blue: #4285F4
-titles black: #191817
-paragraph black: #000000
-paragraph yellow: #ECB12F
-links blue: #2E71A6
-footer links grey: #454245
-*/
+
+@media screen and (max-width: 768px) {
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif  ;
+    background-color: rgb(85, 7, 85);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+h2{
+    font-size: 1.7rem;
+    padding-left: 1.2rem;
+    padding-top: 1rem;
+    
+}
+}
+h3{
+    padding-left: 6rem;
+    font-size: 1.7rem;
+    padding-top: 5rem;
+    width: 20rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+   
+}
+#paragraph{
+    margin-top: -0.2rem;
+    padding-left: 1.3rem;
+    padding-right: 1.2rem;
+    padding-bottom: 0.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 0rem;
+    line-height: 1.5rem;
+
+}
+.h3-styling{
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 0.8rem;
+    color: white;
+} 
+
+#paragraph-style{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(to right, #ffff00 50%, white 50%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+ #hidden{
+    display: none;
+ }
+.img-icon{
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 1rem;
+}
+
+nav > div img {
+    height: 1.5rem;
+    width: auto;
+    
+}
+nav > div >  button  {
+    background-color: rgb(85, 7, 85);
+}
+
+.image{
+    height: 30%;
+
+}
+.text-al{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    padding-left: 4rem;
+ }
+
+ .img-product{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+ }
+
+ .img-product img{
+    width: 50rem;
+    height: auto;
+    padding-top: 2rem;
+    margin-left: -2.4rem;
+    margin-bottom: -5.5rem;
+ }
+
+ #emial-position{
+    margin-bottom: 0.6rem;
+    padding: 0.9rem;
+    font-size: 0.9rem;
+    text-transform:uppercase;
+    border-radius: 0.3rem;
+    border-color: white;
+}
+.flex{
+   width: 25rem;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin-left: 2.5rem;
+   padding-left: 2.5rem;
+
+}
+
+#google-icon  {
+    padding: 0.6rem;
+    float: left;
+    height: 1.2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    border: 1px solid;
+    border-color: white;
+    background-color: white;
+}
+
+header > div button:nth-child(2){
+    text-align: center;
+    background-color: rgb(80, 80, 220);
+    border-radius: 0.3rem;
+    border-color: rgb(80, 80, 220);
+}
+
+#span-letter{
+    line-height: 3rem;
+    font-size: 0.9rem;
+    text-transform:uppercase;
+    padding-right: 2rem ;
+    color: white;
+}
+
+#position{
+    text-align: center;
+    padding-right: 0.1rem;
+    
+}
+
+
+
+ #img-product{
+    width: 47rem;
+    height: auto;
+    padding-top:1rem;
+   
+}
+main{
+   background-color: rgb(242, 233, 233);
+   margin-top: -1.3rem;
+
+}
+#main-paragrap{
+    text-align: center;
+    padding-top: 4rem;
+    font-size:  1rem;
+    font-stretch: expanded;
+    font-family:sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+}
+
+#flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#flex-item {
+    height: 2.5rem;
+    width: auto;
+    padding-top: 1rem;
+    margin: 0.6rem;
+}
+
+.image-flexibility-flex{
+    width: 90%;
+    height: 25rem;
+    padding-top: 2.5rem;
+}
+
+a{
+   padding-left: 1.2rem;
+   text-decoration: none;
+   font-size: 0.9rem;
+   color: rgb(132, 132, 224);
+   content: "\2192";
+}
+
+ section > h3 p:nth-child(4){
+    font-size: 9rem;
+}
+
+#image-flexibility{
+    padding-left: 3.2rem;
+
+}
+.backgroun-and-flex{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#sectn-f-paragph{
+    margin: auto;
+    padding-bottom: 0.9rem;
+    font-size: 0.9rem;
+    word-wrap: break-word;
+    width: 25rem;
+}
+
+#button-styling{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#button-box {
+  margin-bottom: 0.6rem;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform:uppercase;
+  background-color: rgb(85, 7, 85);
+  color: white;
+  border-radius: 0.3rem;
+   border-color: rgb(35, 6, 35);
+}
+
+#button-b{
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform:uppercase;
+    background-color: white;
+    color: rgb(85, 7, 85);
+    border-radius: 0.3rem;
+   
+}
+
+ul{
+    list-style-type: none;
+     padding-bottom: 2.5rem;
+     padding-top: 2.5rem;
+}
+
+ul li:nth-child() {
+    font-size: 1.1rem;
+    color:  rgb(85, 7, 85);
+}
+
+
+ul > li > p span:nth-child(1) {
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color:  rgb(85, 7, 85);
+    padding-right: 3rem ;
+   
+}
+
+.garah{
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-left: 8rem;
+    word-wrap: break-word;
+    line-height: 0.9rem;
+    width: 9rem
+}
+.backg-color{
+    background-color: rgb(85, 7, 85);
+    margin-top: -4rem;
+}
+footer{
+    background-color: white;
+    margin-top: 3.5rem;
+}
+
+.footer-flex-direction{
+    display: flex;
+    justify-content:space-between;
+     padding-right: 4rem;
+}
+
+.footer-social-icon{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 3rem;
+    padding-bottom: 0.9rem;
+     font-size: 1.5rem;
+}
+footer > img {
+    height: 4rem;
+    width: auto;
+    padding-top: 3.8rem;
+    padding-left: 2.2rem;
+    padding-bottom: 1.6rem;
+}
+div ul{
+   font-size: 0.9rem;
+   line-height: 2.5rem;
+   
+}
+#text-break{
+    font-weight: bold;
+    width: 4rem;
+    line-height:  1.5rem; 
+    padding-top:0.6rem;
+    margin-bottom: 1.5rem;
+}
+
+#footer-li-head-style{
+   margin: 0 auto;
+   font-weight: bold;
+   padding-bottom: 2.6rem;
+}
+
+.status-ul{
+    line-height: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 0.9rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+}
+
+#HQ-button{
+  margin-bottom: 0.6rem;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform:uppercase;
+  background-color: rgb(85, 7, 85);
+  border-color: white;
+  color: white;
+  border-radius: 0.3rem;
+
+}
+
+
+small{
+   display: flex;
+   align-content: center;
+   font-size: 0.6rem;
+   font-weight: lighter;
+   font-family: 'Arial Narrow Bold', sans-serif;
+   padding-top: 0.5rem;
+   padding-bottom: 2rem;
+   padding-right: 2.2rem;
+   padding-left: 2.2rem;
+   word-wrap: break-word;
+  
+}
+
+.ref::after{
+    overflow: hidden;
+    font-size: 0.5rem;
+
+    content: "Weighted average Based on 2.707 survey responses From weekly Slack users in the U.S., UK, Australia and canada with a + 2% margin of error at 95% Ci(August 2020)";
+}
+.download-icom::before{
+    content: "";
+}
+.region-icom::before{
+    content: "\1F310";
+    letter-spacing: 0.2rem;
+}
+}
