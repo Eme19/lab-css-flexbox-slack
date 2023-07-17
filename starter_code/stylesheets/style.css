@@ -1,5 +1,485 @@
 
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 1441px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(85, 7, 85);
+         font-family:Arial, Helvetica, sans-serif;
+    }
+
+    nav {
+        background-color: #540B51;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   
+    }
+    
+    #iconandburger{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navburger{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    #navburger a{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: white;
+    }
+    
+    .navsignin{
+        list-style-type: none;
+        display: flex;
+        width: 25rem;
+        justify-content: space-between;
+        align-items: center;
+        font-size:  1rem;
+    }
+
+    #navsigninlink{
+        text-decoration: none;
+        color: white;
+    }
+
+    #navtryforfree{
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+        text-decoration: none;
+        color: #540B51;
+        margin-right: 7rem ;
+    }
+
+    #navbuttons{
+        width: 20vw;
+        display: flex;
+        justify-content: space-between;
+     
+    }
+     #logo{
+        height: 1.5rem;
+        width: auto;
+        margin-left: 1.5rem ;
+    }
+     
+    .puplebg{
+        background-color: #540B51;
+        border-style: none;
+    }
+      
+    .naviconb{
+        height: 1rem;
+       
+    }
+
+   #flex-nav-list{
+    font-size: 1rem;
+    color: white;
+    margin-left: 2rem;
+   text-decoration: none;
+   }
+
+   #hiddenmenu-logo{
+    display: none;
+   }
+
+
+
+     header{
+        background-image: url(../images/background-singup.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        padding-bottom: 3vw;
+        
+    }
+    
+    .imageview{
+        width: 100%;
+        height: 25vw;
+        object-fit: cover;
+        object-position: left;
+    }
+    
+    header h1, header p{
+        color: white;
+        width: 40vw;
+    }
+    
+    header h1{
+    font-size: 5rem;
+     padding: 3rem;
+    }
+    
+    header p{
+        padding: 0 3vw 1vw;
+        width: 35vw;
+         font-size: 1.5rem;
+        background: linear-gradient(to right, #ffff00 5%, white 37%, transparent);
+        -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent; 
+    }
+    
+    header b{
+        color: rgb(236, 177, 47);
+    }
+    
+    .signupgmail{
+         display: flex;
+  justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
+
+    header button{
+        width: 20vw;
+        height: 3vw;
+        border-style: none;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: 1vw;
+        font-weight: bold;
+        color: #540B51;
+        margin-bottom: 3vw;
+   
+    }
+    
+    .googlelogo{
+        height: 3rem;
+        padding: 0px 1px;
+        background-color: white;
+        background-size: 60px 60px;
+        border-radius: 5px;
+        margin-right: 2rem;
+        margin-left: -0.7rem;
+    }
+
+      #googlebutton{
+        background-color: #4285F4;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-left: 1vw;
+    }
+
+.desktopmain{
+   background-color: rgb(242, 233, 233);
+}
+
+main > section > p {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.media-icon{
+    display: flex;
+justify-content: space-between;
+margin-left: 15rem;
+margin-right: 15rem;
+}
+
+
+.flex-item-desktop{
+   height: 2.5rem;
+    width: auto;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+   margin: 0.2rem;
+
+}
+
+.image-flexibility-flex{
+    width: 40rem;
+    height: 30rem;
+    padding-top: 2.5rem;
+}
+
+#image-flexibility{
+  float: right;
+}
+.float-paragraph{
+     display: flex;
+     justify-content: space-around;
+}
+h2{
+ font-size: 3rem;
+ inline-size: 25rem;
+word-break: break-all;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+#paragraph-positioning{
+    padding-left: 42rem;
+    padding-top: 5rem;
+    font-weight: 0rem;
+    
+}
+.parag{
+    width: 70%;
+    font-size: 1.2rem;
+    padding-bottom: 0.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 0rem;
+    line-height: 1.5rem;
+    line-height: 2rem;
+}
+.flex-acmecorp-paragraph{
+    width: 25%;
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 0rem;
+    line-height: 2rem;
+}
+.flex-paragraph2{
+    padding-left: 10rem;
+    padding-top: 5rem;
+    font-weight: 0rem;
+    padding-bottom: 7rem;
+}
+#ahref-style{
+    text-decoration: none;
+    color: #70a3f5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans
+}
+.section-paragraph{
+    display: flex;
+     justify-content: space-around;
+     padding-bottom: 4rem;
+}
+.flex-paragra3 {
+    width: 70%;
+    font-size: 1.2rem;
+    padding-bottom: 0.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 0rem;
+    line-height: 1.5rem;
+    line-height: 2rem;
+}
+.paragraph3{
+    padding-left: 40rem;
+    padding-top: 3rem;
+    font-weight: 0rem;
+}
+
+h3{
+    text-align: center;
+    padding-top: 7rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.backgroun-and-flex{
+    background-color: white;
+}
+#sectn-f-paragph{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin: 0px;
+}
+.enterprise{
+    width: 20rem;
+    height: auto;
+    border: solid 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: white;
+    background-color: #540B51;
+    border-color: white;
+}
+.talktosales{
+    width: 11rem;
+    height: 3.3rem;
+    border: solid 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #540B51;
+    margin: 0 2.5vw;
+    background-color: white;
+    border-color: #540B51;
+}
+
+.button-position{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+section ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+     padding-bottom: 5rem;
+     padding-top: 6rem;
+}
+
+ul li:nth-child() {
+    font-size: 1.1rem;
+    color:  rgb(85, 7, 85);
+}
+
+
+ul > li > p span:nth-child(1) {
+    font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color:  rgb(85, 7, 85);
+    padding-left: 0.5rem;
+   
+}
+
+.garah{
+    font-size: 1rem;
+    font-weight: bold;
+    word-wrap: break-word;
+    line-height: 1.2rem;
+    width: 9rem
+}
+.backg-color{
+    background-color:  rgb(85, 7, 85);
+    margin-top: -1rem;
+  padding-bottom: 3rem;
+}
+.button1{
+    width: 12rem;
+    height: 3.3rem;
+    border: solid 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #540B51;
+    margin-left: 50rem;
+    background-color: white;
+    border-color: #540B51;
+}
+.button2{
+    width: 12rem;
+    height: 3.3rem;
+    border: solid 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: white;
+    margin: 1.5vw 1vw 0;
+    background-color: #540B51;
+    border-color: white;
+}
+.h3-styling{
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 0.8rem;
+    color: white;
+}
+
+footer{
+    background-color: white;
+}
+footer > img {
+    height: 4rem;
+    width: auto;
+    padding-top: 3.8rem;
+    padding-left: 4.2rem;
+    padding-bottom: 1.6rem;
+}
+
+.footer-flex-direction{
+    display: flex;
+    justify-content:space-between;
+     padding-right: 4rem;
+}
+#text-break{
+    font-weight: bold;
+    padding-top:0.6rem;
+    margin-bottom: 1rem;
+}
+
+#footer-li-head-style{
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 1rem;
+   
+ }
+ ul {
+    list-style-type: none;
+   
+ }
+
+ footer ul {
+    line-height: 2.2rem;
+  
+    margin-left: 2rem;
+    margin-right:  2rem;
+    font-size: 0.8rem;
+ }
+ .status-ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right:  5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    
+ }
+ .region-icom::before{
+    content: "\1F310";
+    letter-spacing: 0.2rem;
+}
+
+.footer-social-icon{
+    display: flex;
+    justify-content:start;
+   margin-left: 0.3rem;
+}
+i{
+padding: 2rem;
+font-size: 1.1rem;
+}
+#small-a{
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
+    padding-left: 4.5rem;
+    font-weight: lighter;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (width < 768px) {
 body{
     margin: 0;
     padding: 0;
@@ -13,13 +493,16 @@ h1{
     font-size: 3rem;
     color: white;
 }
+.hidden{
+    display: none;
+}
 h2{
     font-size: 1.7rem;
     padding-left: 1.2rem;
     padding-top: 1rem;
     
 }
-}
+
 h3{
     padding-left: 6rem;
     font-size: 1.7rem;
@@ -61,7 +544,7 @@ h3{
  #hidden{
     display: none;
  }
-.img-icon{
+.img-icon{ 
     display: flex;
     justify-content:space-between;
     padding: 1rem 1rem;
@@ -151,8 +634,6 @@ header > div button:nth-child(2){
     padding-right: 0.1rem;
     
 }
-
-
 
  #img-product{
     width: 47rem;
@@ -379,3 +860,21 @@ small{
     letter-spacing: 0.2rem;
 }
 }
+/* 
+@media screen and  (width < 1024px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family:  Arial, sans-serif  ;
+        background-color: rgb(85, 7, 85);
+    }
+    .h1{
+        display: flex;
+        justify-content:left;
+        font-size: 3rem;
+        color: white;
+        padding-left: 2rem;
+       inline-size: 20rem;
+       word-wrap: break-word;
+    }
+} */

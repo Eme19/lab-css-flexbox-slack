@@ -11,6 +11,7 @@
 
   <!-- link your styles -->
   <link rel="stylesheet" href="./stylesheets/style.css" />
+  <link rel="stylesheet" href="./stylesheets/tap.css" />
   <link rel="reset" href="./stylesheets/reset.css"/>
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
@@ -18,56 +19,56 @@
 
 <body>
   <nav class="img-icon">
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+    <div id="iconandburger">
+      <img id="logo"  src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul id="hidden">
+      <ul id="hidden" class="navburger">
         <li>
-          <a href="#">Product</a>
+          <a id="flex-nav-list" href="#">Product</a>
         </li>
         <li>
-          <a href="#">Solutions</a>
+          <a id="flex-nav-list" href="#">Solutions</a>
         </li>
         <li>
-          <a href="#">Resources</a>
+          <a id="flex-nav-list" href="#">Resources</a>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <a id="flex-nav-list" href="#">Pricing</a>
         </li>
       </ul>
     </div>
 
-    <div>
-      <button>
-        <img class="image" src="./images/icon-search.png" alt="Search icon">
+    <div  id="navbuttons">
+      <button  class="puplebg">
+        <img class="image" src="./images/icon-search.png" alt="Search icon"  class="naviconb">
       </button> 
-      <button>
-        <img class="image" src="./images/icon-menu.png" alt="Menu icon">
+      <button class="puplebg">
+        <img class="image" src="./images/icon-menu.png" alt="Menu icon"  id="hiddenmenu-logo">
       </button>
 
-      <ul id="hidden">
+      <ul id="hidden" class="navsignin">
         <li>
-          <a href="#">Sign in</a>
+          <a href="#" id="navsigninlink">Sign in</a>
         </li>
         <li>
-          <a href="#">Try for free</a>
+          <a href="#" id="navtryforfree">Try for free</a>
         </li>
       </ul>
     </div>
   </nav>
 
-
+<hr class="hidden">
   <header>
     <div>
-      <h1>Great teamwork<br>starts with a digital<br> HQ</h1>
+      <h1 class="h1" >Great<br> teamwork starts with a digital<br> HQ</h1>
 
-      <p id="paragraph-style">Slack is free to try for as long as you'd like.</p>
+      <p id="paragraph-style" >Slack is free to try for as long as you'd like.</p>
 
-      <div id="button-styling">
+      <div id="button-styling" class="signupgmail">
         <button id="emial-position">sign up with email</button>
 
-        <button>
-          <img id="google-icon" src="./images/logo-google.png" alt="Google logo" />
+        <button  id="googlebutton">
+          <img id="google-icon" src="./images/logo-google.png" alt="Google logo"  class="googlelogo" />
           <span id="span-letter">sign up with google</span>
         </button>
       </div>
@@ -75,39 +76,39 @@
     </div>
 
     <div  class="img-product">
-      <img  src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img  src="./images/hero-product-ui.png" alt="Slack app screenshot" class="imageview"  />
     </div>
   </header>
 
-  <main>
+  <main class="desktopmain">
     <section >
       <p id="main-paragrap">TRUSTED BY COMPANIES ALL OVER THE WORLD</p>
 
-      <div id="flex-container">
-        <img  id="flex-item" src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img id="flex-item" src="./images/logo-nasa.png" alt="NASA logo" />
-        <img id="flex-item" src="./images/logo-uber.png" alt="Uber logo" />
-        <img id="flex-item" src="./images/logo-target.png" alt="Target logo" />
-        <img id="flex-item" src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img id="flex-item" src="./images/logo-spotify.png" alt="Spotify logo" />
+      <div id="flex-container" class="media-icon">
+        <img  id="flex-item" src="./images/logo-airbnb.png" alt="Airbnb logo" class="flex-item-desktop"/>
+        <img id="flex-item" src="./images/logo-nasa.png" alt="NASA logo" class="flex-item-desktop"/>
+        <img id="flex-item" src="./images/logo-uber.png" alt="Uber logo" class="flex-item-desktop"/>
+        <img id="flex-item" src="./images/logo-target.png" alt="Target logo" class="flex-item-desktop"/>
+        <img id="flex-item" src="./images/logo-nyt.png" alt="New York Times logo" class="flex-item-desktop"/>
+        <img id="flex-item" src="./images/logo-spotify.png" alt="Spotify logo" class="flex-item-desktop"/>
       </div>
 
     </section>
 
-    <section>
+    <section class="float-paragraph">
       <div >
-        <img class="image-flexibility-flex" src="./images/connectedness-mobile.png" alt="connectedness" />
+        <img class="image-flexibility-flex" src="./images/connectedness-mobile.png" alt="connectedness" id="flex-salesitems"/>
       </div>
 
-      <div>
+      <div id="paragraph-positioning">
         <h2>Bring your team together</h2>
 
-        <p id="paragraph">
+        <p id="paragraph" class="parag">
           At the heart of Slack are channels: organized spaces for everyone and everything you need for work. In
           channels, it's easier to connect across departments, offices, time zones and even other companies.
         </p>
 
-        <a  href="#">
+        <a id="ahref-style"  href="#">
           <span>Learn more about channels</span>
         </a>
       </div>
@@ -115,35 +116,36 @@
       <div>
         <img id="image-flexibility"  class="image-flexibility-flex" src="./images/flexibility-mobile.png" alt="flexibility" />
       </div>
-    <section>
-      <div>
+
+    <section class="flex-paragraph2">
+      <div >
         <h2>Choose how you want to work</h2>
-        <p id="paragraph">
+        <p id="paragraph" class="flex-acmecorp-paragraph">
           In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
           send
           audio and video clips, or hop on a huddle to talk things out live.
         </p>
       
-        <a  href="#"href="#">
+        <a id="ahref-style"  href="#"href="#">
           <span>Learn more about flexible communication</span>
         </a>
       </div>
     
     </section>
 
-    <section>
+    <section class="section-paragraph">
       <div>
-        <img  class="image-flexibility-flex" src="./images/speed-mobile.png" alt="speed" />
+        <img  class="image-flexibility-flex"  src="./images/speed-mobile.png" alt="speed" id="flex-salesitems"/>
       </div>
 
-      <div>
+      <div class="paragraph3">
         <h2>Move faster with your tools in one place</h2>
-        <p id="paragraph" >
+        <p id="paragraph" class="flex-paragra3">
           With your other work apps connected to Slack, you can work faster by switching tabs less. And with powerful
           tools like Workflow Builder, you can automate away routine tasks.
         </p>
 
-        <a href="#">
+        <a id="ahref-style"  href="#">
           <span>Learn more about the Slack platform</span>
         </a>
       </div>
@@ -154,9 +156,9 @@
       <h3>Teams large and small rely on Slack</h3>
       <p id="sectn-f-paragph"> Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-      <div id="button-styling">
-        <button id="button-box"> Meet Slack for enterprise</button>
-        <button id="button-b"> Talk to sales</button>
+      <div id="button-styling" class="button-position">
+        <button id="button-box" class="enterprise"> Meet Slack for enterprise</button>
+        <button id="button-b"  class="talktosales"> Talk to sales</button>
       </div>
 
       <ul>
@@ -188,9 +190,8 @@
 
     <section class="backg-color" id="button-styling">
       <h3 class="h3-styling">Welcome to your new digital HQ</h3>
-
-      <button id="HQ-button">Try for free</button>
-      <button id="button-b">Talk to sales</button>
+      <button id="HQ-button" class="button1">Try for free</button>
+      <button id="button-b" class="button2">Talk to sales</button>
     </section>
 
   </main>
@@ -257,7 +258,7 @@
       <li>
         <i class="fab fa-youtube"></i>
       </li>
-      <li>
+      <li >
         <i class="fab fa-linkedin"></i>
       </li>
     </ul>
